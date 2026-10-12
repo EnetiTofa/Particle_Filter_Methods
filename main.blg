@@ -1,0 +1,22 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'main.blg'
+[91] biber-darwin:340> INFO - === Mon Oct 12, 2026, 14:10:09
+[117] Biber.pm:420> INFO - Reading 'main.bcf'
+[256] Biber.pm:994> INFO - Found 19 citekeys in bib section 0
+[280] Biber.pm:4463> INFO - Processing section 0
+[295] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
+[298] bibtex.pm:1713> INFO - LaTeX decoding ...
+[330] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[564] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[564] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[565] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[565] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[623] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[624] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[624] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[624] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[657] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[696] bbl.pm:779> INFO - Output to main.bbl
+[696] Biber.pm:131> WARN - article entry 'Akyildiz2020' (references.bib): Invalid format '2020/03/01' of date field 'date' - ignoring
+[696] Biber.pm:131> WARN - ISBN '1573-1375' in entry 'Akyildiz2020' is invalid - run biber with '--validate_datamodel' for details.
+[697] Biber.pm:133> INFO - WARNINGS: 2

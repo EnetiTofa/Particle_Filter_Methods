@@ -1,0 +1,145 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{Kim1998}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1916bac425c6d3d0abed4de07c55df5d}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sangjoon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=297d9c8d6a4dcfbed876803d5cbba67b}{%
+           family={Shephard},
+           familyi={S\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25628966014266922faf57d7f25b3abd}{%
+           family={Chib},
+           familyi={C\bibinitperiod},
+           given={Siddhartha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7bed773d610ab4f1b7db6a0b2725e3e0}
+      \strng{fullhash}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{fullhashraw}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{bibnamehash}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{authorbibnamehash}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{authornamehash}{7bed773d610ab4f1b7db6a0b2725e3e0}
+      \strng{authorfullhash}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{authorfullhashraw}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, Markov chain Monte Carlo sampling methods are exploited to provide a unified, practical likelihood-based framework for the analysis of stochastic volatility models. A highly effective method is developed that samples all the unobserved volatilities at once using an approximating offset mixture model, followed by an importance reweighting procedure. This approach is compared with several alternative methods using real data. The paper also develops simulation-based methods for filtering, likelihood evaluation and model failure diagnostics. The issue of model choice using non-nested likelihood ratios and Bayes factors is also investigated. These methods are used to compare the fit of stochastic volatility and GARCH models. All the procedures are illustrated in detail.}
+      \field{issn}{0034-6527}
+      \field{journaltitle}{The Review of Economic Studies}
+      \field{month}{07}
+      \field{number}{3}
+      \field{title}{Stochastic Volatility: Likelihood Inference and Comparison with ARCH Models}
+      \field{volume}{65}
+      \field{year}{1998}
+      \field{pages}{361\bibrangedash 393}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1111/1467-937X.00050
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/restud/article-pdf/65/3/361/4459409/65-3-361.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/1467-937X.00050
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/1467-937X.00050
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{Kim1998}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1916bac425c6d3d0abed4de07c55df5d}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sangjoon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=297d9c8d6a4dcfbed876803d5cbba67b}{%
+           family={Shephard},
+           familyi={S\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25628966014266922faf57d7f25b3abd}{%
+           family={Chib},
+           familyi={C\bibinitperiod},
+           given={Siddhartha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7bed773d610ab4f1b7db6a0b2725e3e0}
+      \strng{fullhash}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{fullhashraw}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{bibnamehash}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{authorbibnamehash}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{authornamehash}{7bed773d610ab4f1b7db6a0b2725e3e0}
+      \strng{authorfullhash}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{authorfullhashraw}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, Markov chain Monte Carlo sampling methods are exploited to provide a unified, practical likelihood-based framework for the analysis of stochastic volatility models. A highly effective method is developed that samples all the unobserved volatilities at once using an approximating offset mixture model, followed by an importance reweighting procedure. This approach is compared with several alternative methods using real data. The paper also develops simulation-based methods for filtering, likelihood evaluation and model failure diagnostics. The issue of model choice using non-nested likelihood ratios and Bayes factors is also investigated. These methods are used to compare the fit of stochastic volatility and GARCH models. All the procedures are illustrated in detail.}
+      \field{issn}{0034-6527}
+      \field{journaltitle}{The Review of Economic Studies}
+      \field{month}{07}
+      \field{number}{3}
+      \field{title}{Stochastic Volatility: Likelihood Inference and Comparison with ARCH Models}
+      \field{volume}{65}
+      \field{year}{1998}
+      \field{pages}{361\bibrangedash 393}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1111/1467-937X.00050
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/restud/article-pdf/65/3/361/4459409/65-3-361.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/1467-937X.00050
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/1467-937X.00050
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

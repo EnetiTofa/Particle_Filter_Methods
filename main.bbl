@@ -1,0 +1,1889 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{Akyildiz2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=92da77da15c16f6b87a979b2899f9cc9}{%
+           family={Akyildiz},
+           familyi={A\bibinitperiod},
+           given={Ömer\bibnamedelima Deniz},
+           giveni={Ö\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b858245bc8f30c9da00c8a230ffc43b8}{%
+           family={Míguez},
+           familyi={M\bibinitperiod},
+           given={Joaquín},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{52161aab624a5f485ebf78b0e78b39df}
+      \strng{fullhash}{52161aab624a5f485ebf78b0e78b39df}
+      \strng{fullhashraw}{52161aab624a5f485ebf78b0e78b39df}
+      \strng{bibnamehash}{52161aab624a5f485ebf78b0e78b39df}
+      \strng{authorbibnamehash}{52161aab624a5f485ebf78b0e78b39df}
+      \strng{authornamehash}{52161aab624a5f485ebf78b0e78b39df}
+      \strng{authorfullhash}{52161aab624a5f485ebf78b0e78b39df}
+      \strng{authorfullhashraw}{52161aab624a5f485ebf78b0e78b39df}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We investigate a new sampling scheme aimed at improving the performance of particle filters whenever (a) there is a significant mismatch between the assumed model dynamics and the actual system, or (b) the posterior probability tends to concentrate in relatively small regions of the state space. The proposed scheme pushes some particles toward specific regions where the likelihood is expected to be high, an operation known as nudging in the geophysics literature. We reinterpret nudging in a form applicable to any particle filtering scheme, as it does not involve any changes in the rest of the algorithm. Since the particles are modified, but the importance weights do not account for this modification, the use of nudging leads to additional bias in the resulting estimators. However, we prove analytically that nudged particle filters can still attain asymptotic convergence with the same error rates as conventional particle methods. Simple analysis also yields an alternative interpretation of the nudging operation that explains its robustness to model errors. Finally, we show numerical results that illustrate the improvements that can be attained using the proposed scheme. In particular, we present nonlinear tracking examples with synthetic data and a model inference example using real-world financial data.}
+      \field{isbn}{1573-1375}
+      \field{journaltitle}{Statistics and Computing}
+      \field{number}{2}
+      \field{title}{Nudging the particle filter}
+      \field{volume}{30}
+      \field{year}{2020}
+      \field{pages}{305\bibrangedash 330}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1007/s11222-019-09884-y
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11222-019-09884-y
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11222-019-09884-y
+      \endverb
+      \warn{\item article entry 'Akyildiz2020' (references.bib): Invalid format '2020/03/01' of date field 'date' - ignoring}
+    \endentry
+    \entry{Andrieu2010}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ac7a0b060593ea80a10f55d530432a50}{%
+           family={Andrieu},
+           familyi={A\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aca5faad8b57b96b59c12fc59d0b6eb4}{%
+           family={Doucet},
+           familyi={D\bibinitperiod},
+           given={Arnaud},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fa139cb7d5195e095f29975804e6f31}{%
+           family={Holenstein},
+           familyi={H\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{839e61e53fed1e7a24a5d817e8fe9a46}
+      \strng{fullhash}{39c0c746d8c218374cd32883c930e3f5}
+      \strng{fullhashraw}{39c0c746d8c218374cd32883c930e3f5}
+      \strng{bibnamehash}{39c0c746d8c218374cd32883c930e3f5}
+      \strng{authorbibnamehash}{39c0c746d8c218374cd32883c930e3f5}
+      \strng{authornamehash}{839e61e53fed1e7a24a5d817e8fe9a46}
+      \strng{authorfullhash}{39c0c746d8c218374cd32883c930e3f5}
+      \strng{authorfullhashraw}{39c0c746d8c218374cd32883c930e3f5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Markov chain Monte Carlo and sequential Monte Carlo methods have emerged as the two main tools to sample from high dimensional probability distributions. Although asymptotic convergence of Markov chain Monte Carlo algorithms is ensured under weak assumptions, the performance of these algorithms is unreliable when the proposal distributions that are used to explore the space are poorly chosen and/or if highly correlated variables are updated independently. We show here how it is possible to build efficient high dimensional proposal distributions by using sequential Monte Carlo methods. This allows us not only to improve over standard Markov chain Monte Carlo schemes but also to make Bayesian inference feasible for a large class of statistical models where this was not previously so. We demonstrate these algorithms on a non-linear state space model and a Lévy-driven stochastic volatility model.}
+      \field{issn}{1369-7412}
+      \field{journaltitle}{Journal of the Royal Statistical Society Series B: Statistical Methodology}
+      \field{month}{06}
+      \field{number}{3}
+      \field{title}{Particle Markov Chain Monte Carlo Methods}
+      \field{volume}{72}
+      \field{year}{2010}
+      \field{pages}{269\bibrangedash 342}
+      \range{pages}{74}
+      \verb{doi}
+      \verb 10.1111/j.1467-9868.2009.00736.x
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/jrsssb/article-pdf/72/3/269/49515565/jrsssb_72_3_269.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/j.1467-9868.2009.00736.x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/j.1467-9868.2009.00736.x
+      \endverb
+    \endentry
+    \entry{Arulampalam2002}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=92be5acd369ea256256f77693546ddab}{%
+           family={Arulampalam},
+           familyi={A\bibinitperiod},
+           given={M.S.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26c6aa603a2c4ce496a57aeee2e8f83c}{%
+           family={Maskell},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0b5c9dbb3f74a586974af6016fccab7}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77931271ad9b5f23f2180d9e7e5df9b2}{%
+           family={Clapp},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8bf85617383be95b0e0b34cdfc66a753}
+      \strng{fullhash}{47ecdaed0871c7416b884d2cf62d3243}
+      \strng{fullhashraw}{47ecdaed0871c7416b884d2cf62d3243}
+      \strng{bibnamehash}{47ecdaed0871c7416b884d2cf62d3243}
+      \strng{authorbibnamehash}{47ecdaed0871c7416b884d2cf62d3243}
+      \strng{authornamehash}{8bf85617383be95b0e0b34cdfc66a753}
+      \strng{authorfullhash}{47ecdaed0871c7416b884d2cf62d3243}
+      \strng{authorfullhashraw}{47ecdaed0871c7416b884d2cf62d3243}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Signal Processing}
+      \field{number}{2}
+      \field{title}{A tutorial on particle filters for online nonlinear/non-Gaussian Bayesian tracking}
+      \field{volume}{50}
+      \field{year}{2002}
+      \field{pages}{174\bibrangedash 188}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/78.978374
+      \endverb
+      \keyw{Tutorial;Particle filters;Nonlinear dynamical systems;Costs;Signal processing;Bayesian methods;Particle tracking;Kalman filters;Filtering;Monte Carlo methods}
+    \endentry
+    \entry{BUCKLAND2004157}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=43d64636acaac9ee5b8705042c963258}{%
+           family={Buckland},
+           familyi={B\bibinitperiod},
+           given={S.T.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33af46d3d33f69c46fd069a327ab9b81}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={K.B.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=163d8936b81dbc61bfd9aa7cc5fe9c3a}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3613ebbda167a9e99a3833fa986fcd89}{%
+           family={Koesters},
+           familyi={K\bibinitperiod},
+           given={N.B.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{12072470778ab8dbafb1d235148b0af2}
+      \strng{fullhash}{b2e2f19ef2d119c9ebd97bf2144c83b7}
+      \strng{fullhashraw}{b2e2f19ef2d119c9ebd97bf2144c83b7}
+      \strng{bibnamehash}{b2e2f19ef2d119c9ebd97bf2144c83b7}
+      \strng{authorbibnamehash}{b2e2f19ef2d119c9ebd97bf2144c83b7}
+      \strng{authornamehash}{12072470778ab8dbafb1d235148b0af2}
+      \strng{authorfullhash}{b2e2f19ef2d119c9ebd97bf2144c83b7}
+      \strng{authorfullhashraw}{b2e2f19ef2d119c9ebd97bf2144c83b7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We develop a unified framework for jointly defining population dynamics models and measurements taken on a population. The framework is a state-space model where the population processes are modelled by the state process and measurements are modelled by the observation process. In many cases, the expected value for the state process can be represented as a generalisation of the standard population projection matrix: each sub-process within the state process may be modelled by a separate matrix and the product of these matrices is a generalised Leslie matrix. By selecting appropriate matrices and their ordering, a wide range of models may be specified. The method is fully flexible for allowing stochastic variation in the processes. Process parameters may themselves be modelled as functions of covariates. The structure accommodates effects such as density dependence, competition and predator–prey relationships, and metapopulations are readily modelled. Observations on the population enter through an observation process model, and we show how likelihood functions can be built that reflect both demographic stochasticity (which appears in the state process) and stochastic errors in the observations. Parameter estimation and estimation of state process variables can be conducted using sequential Monte Carlo procedures.}
+      \field{issn}{0304-3800}
+      \field{journaltitle}{Ecological Modelling}
+      \field{number}{1}
+      \field{title}{State-space models for the dynamics of wild animal populations}
+      \field{volume}{171}
+      \field{year}{2004}
+      \field{pages}{157\bibrangedash 175}
+      \range{pages}{19}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ecolmodel.2003.08.002
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0304380003003302
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0304380003003302
+      \endverb
+      \keyw{Generalised Leslie matrix,Open population models,Population dynamics models,Recursive filtering algorithms,State-space models}
+    \endentry
+    \entry{Casarin2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e6eeb6091570f23e055ea81aa213bf8a}{%
+           family={Casarin},
+           familyi={C\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41d244db4705ec8da2fc38ab27c6c1a4}{%
+           family={Marin},
+           familyi={M\bibinitperiod},
+           given={Jean-Michel},
+           giveni={J\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Mathematical Statistics}%
+        {Bernoulli Society}%
+      }
+      \strng{namehash}{8561c72cc4c2b836521924a64f2c8cb8}
+      \strng{fullhash}{8561c72cc4c2b836521924a64f2c8cb8}
+      \strng{fullhashraw}{8561c72cc4c2b836521924a64f2c8cb8}
+      \strng{bibnamehash}{8561c72cc4c2b836521924a64f2c8cb8}
+      \strng{authorbibnamehash}{8561c72cc4c2b836521924a64f2c8cb8}
+      \strng{authornamehash}{8561c72cc4c2b836521924a64f2c8cb8}
+      \strng{authorfullhash}{8561c72cc4c2b836521924a64f2c8cb8}
+      \strng{authorfullhashraw}{8561c72cc4c2b836521924a64f2c8cb8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electronic Journal of Statistics}
+      \field{number}{none}
+      \field{title}{{Online data processing: Comparison of Bayesian regularized particle filters}}
+      \field{volume}{3}
+      \field{year}{2009}
+      \field{pages}{239\bibrangedash 258}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1214/08-EJS256
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1214/08-EJS256
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1214/08-EJS256
+      \endverb
+      \keyw{Bayesian estimation,Online data processing,regularized particle filters,stochastic volatility models}
+    \endentry
+    \entry{Douc2005}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8016e20ffe53cd289b6f027afc9eab01}{%
+           family={Douc},
+           familyi={D\bibinitperiod},
+           given={Randal},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2ffb0fcf2473b1619d2032fd10cead7}{%
+           family={Cappé},
+           familyi={C\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{25910723bc0408295aba06a370151b8e}
+      \strng{fullhash}{25910723bc0408295aba06a370151b8e}
+      \strng{fullhashraw}{25910723bc0408295aba06a370151b8e}
+      \strng{bibnamehash}{25910723bc0408295aba06a370151b8e}
+      \strng{authorbibnamehash}{25910723bc0408295aba06a370151b8e}
+      \strng{authornamehash}{25910723bc0408295aba06a370151b8e}
+      \strng{authorfullhash}{25910723bc0408295aba06a370151b8e}
+      \strng{authorfullhashraw}{25910723bc0408295aba06a370151b8e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ISPA 2005. Proceedings of the 4th International Symposium on Image and Signal Processing and Analysis, 2005.}
+      \field{title}{Comparison of resampling schemes for particle filtering}
+      \field{year}{2005}
+      \field{pages}{64\bibrangedash 69}
+      \range{pages}{6}
+    \endentry
+    \entry{Dukic01122012}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8ab968dbdd0d3f948a76ea250d22f000}{%
+           family={Dukic},
+           familyi={D\bibinitperiod},
+           given={Vanja},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6f599573a3f598649287069b6c48ae2}{%
+           family={Lopes},
+           familyi={L\bibinitperiod},
+           given={Hedibert\bibnamedelima F.},
+           giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c782f2b0a57bb490ef246bfbfd177e82}{%
+           family={Polson},
+           familyi={P\bibinitperiod},
+           given={Nicholas\bibnamedelima G.},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{c0b07adb36752923444c81cca1b6fb5f}
+      \strng{fullhash}{42691d2da30ffc679ed0505b301583f4}
+      \strng{fullhashraw}{42691d2da30ffc679ed0505b301583f4}
+      \strng{bibnamehash}{42691d2da30ffc679ed0505b301583f4}
+      \strng{authorbibnamehash}{42691d2da30ffc679ed0505b301583f4}
+      \strng{authornamehash}{c0b07adb36752923444c81cca1b6fb5f}
+      \strng{authorfullhash}{42691d2da30ffc679ed0505b301583f4}
+      \strng{authorfullhashraw}{42691d2da30ffc679ed0505b301583f4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{note}{PMID: 37583443}
+      \field{number}{500}
+      \field{title}{Tracking Epidemics With Google Flu Trends Data and a State-Space SEIR Model}
+      \field{volume}{107}
+      \field{year}{2012}
+      \field{pages}{1410\bibrangedash 1426}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1080/01621459.2012.713876
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/01621459.2012.713876
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/01621459.2012.713876
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/01621459.2012.713876
+      \endverb
+    \endentry
+    \entry{Durbin2012}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6186d820e49f3adc10764a9c5595a360}{%
+           family={Durbin},
+           familyi={D\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21f365c12bd59fa8a7120260bd39f1fc}{%
+           family={Koopman},
+           familyi={K\bibinitperiod},
+           given={Siem\bibnamedelima Jan},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a6d55ee23b49aa3ff87b3f18d97947aa}
+      \strng{fullhash}{a6d55ee23b49aa3ff87b3f18d97947aa}
+      \strng{fullhashraw}{a6d55ee23b49aa3ff87b3f18d97947aa}
+      \strng{bibnamehash}{a6d55ee23b49aa3ff87b3f18d97947aa}
+      \strng{authorbibnamehash}{a6d55ee23b49aa3ff87b3f18d97947aa}
+      \strng{authornamehash}{a6d55ee23b49aa3ff87b3f18d97947aa}
+      \strng{authorfullhash}{a6d55ee23b49aa3ff87b3f18d97947aa}
+      \strng{authorfullhashraw}{a6d55ee23b49aa3ff87b3f18d97947aa}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Time Series Analysis by State Space Methods}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.1093/acprof:oso/9780199641178.001.0001
+      \endverb
+    \endentry
+    \entry{Elfring2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3daeb72758d6190bf48c2f54ad0eb268}{%
+           family={Elfring},
+           familyi={E\bibinitperiod},
+           given={Jos},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7f026594a2f0c34a7356129d66a152e}{%
+           family={Torta},
+           familyi={T\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=051e288c7b7eda7b31a4008d8ee630f6}{%
+           family={Molengraft},
+           familyi={M\bibinitperiod},
+           given={René},
+           giveni={R\bibinitperiod},
+           givenun=0,
+           prefix={van\bibnamedelima de},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d42c2834c2e2ac47456acb98e541157}
+      \strng{fullhash}{d06040eed349188ec2e0c8de3a6aab42}
+      \strng{fullhashraw}{d06040eed349188ec2e0c8de3a6aab42}
+      \strng{bibnamehash}{d06040eed349188ec2e0c8de3a6aab42}
+      \strng{authorbibnamehash}{d06040eed349188ec2e0c8de3a6aab42}
+      \strng{authornamehash}{5d42c2834c2e2ac47456acb98e541157}
+      \strng{authorfullhash}{d06040eed349188ec2e0c8de3a6aab42}
+      \strng{authorfullhashraw}{d06040eed349188ec2e0c8de3a6aab42}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The particle filter was popularized in the early 1990s and has been used for solving estimation problems ever since. The standard algorithm can be understood and implemented with limited effort due to the widespread availability of tutorial material and code examples. Extensive research has advanced the standard particle filter algorithm to improve its performance and applicability in various ways in the years after. As a result, selecting and implementing an advanced version of the particle filter that goes beyond the standard algorithm and fits a specific estimation problem requires either a thorough understanding or reviewing large amounts of the literature. The latter can be heavily time consuming especially for those with limited hands-on experience. Lack of implementation details in theory-oriented papers complicates this task even further. The goal of this tutorial is facilitating the reader to familiarize themselves with the key concepts of advanced particle filter algorithms and to select and implement the right particle filter for the estimation problem at hand. It acts as a single entry point that provides a theoretical overview of the filter, its assumptions and solutions for various challenges encountered when applying particle filters. Besides that, it includes a running example that demonstrates and implements many of the challenges and solutions.}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{number}{2}
+      \field{title}{Particle Filters: A Hands-On Tutorial}
+      \field{volume}{21}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.3390/s21020438
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/21/2/438
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/21/2/438
+      \endverb
+    \endentry
+    \entry{Gordon1993NovelAT}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f7b8994df3c42d9bcafedf9addf38826}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={Neil\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=338cb8298aa547242d51506becdff381}{%
+           family={Salmond},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17aff1141369f44f3fde55c8f76ec195}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Adrian\bibnamedelimb F.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b93da2cbff975244a8e3a15476416cbb}
+      \strng{fullhash}{72cb0c530f69b2f2b7c164b4d550daa7}
+      \strng{fullhashraw}{72cb0c530f69b2f2b7c164b4d550daa7}
+      \strng{bibnamehash}{72cb0c530f69b2f2b7c164b4d550daa7}
+      \strng{authorbibnamehash}{72cb0c530f69b2f2b7c164b4d550daa7}
+      \strng{authornamehash}{b93da2cbff975244a8e3a15476416cbb}
+      \strng{authorfullhash}{72cb0c530f69b2f2b7c164b4d550daa7}
+      \strng{authorfullhashraw}{72cb0c530f69b2f2b7c164b4d550daa7}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Novel approach to nonlinear/non-Gaussian Bayesian state estimation}
+      \field{year}{1993}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:12644877
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:12644877
+      \endverb
+    \endentry
+    \entry{Gustafsson2002}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=c77871f54925a9bb922d01d455faa274}{%
+           family={Gustafsson},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1468b32f784b00212fb1d4483b28d0e9}{%
+           family={Gunnarsson},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fb88db3fdd53fad515f03223c7299ae}{%
+           family={Bergman},
+           familyi={B\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7640b417d029d0cfeb043a8d3f47eee2}{%
+           family={Forssell},
+           familyi={F\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02db2cbea835506cc2a2fcf623de3ab2}{%
+           family={Jansson},
+           familyi={J\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e10c5de92dd19c0f8c98e8f7d9b93ea}{%
+           family={Karlsson},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f00fd8619a37ffa4fdbfcd5dba0f709}{%
+           family={Nordlund},
+           familyi={N\bibinitperiod},
+           given={P.-J.},
+           giveni={P\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c420dfa16a5f795860076448f9f3bf95}
+      \strng{fullhash}{c7975d7c5ea3b9e1d611edce3c8381e0}
+      \strng{fullhashraw}{c7975d7c5ea3b9e1d611edce3c8381e0}
+      \strng{bibnamehash}{c7975d7c5ea3b9e1d611edce3c8381e0}
+      \strng{authorbibnamehash}{c7975d7c5ea3b9e1d611edce3c8381e0}
+      \strng{authornamehash}{c420dfa16a5f795860076448f9f3bf95}
+      \strng{authorfullhash}{c7975d7c5ea3b9e1d611edce3c8381e0}
+      \strng{authorfullhashraw}{c7975d7c5ea3b9e1d611edce3c8381e0}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Signal Processing}
+      \field{number}{2}
+      \field{title}{Particle filters for positioning, navigation, and tracking}
+      \field{volume}{50}
+      \field{year}{2002}
+      \field{pages}{425\bibrangedash 437}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/78.978396
+      \endverb
+      \keyw{Particle filters;Particle tracking;Aircraft navigation;Position measurement;Satellite navigation systems;Target tracking;Motion measurement;Nonlinear equations;Automotive engineering;Kalman filters}
+    \endentry
+    \entry{Gustafsson2010}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=efeca2b720f2e1353d53f19b3195ccb6}{%
+           family={Gustafsson},
+           familyi={G\bibinitperiod},
+           given={Fredrik},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{efeca2b720f2e1353d53f19b3195ccb6}
+      \strng{fullhash}{efeca2b720f2e1353d53f19b3195ccb6}
+      \strng{fullhashraw}{efeca2b720f2e1353d53f19b3195ccb6}
+      \strng{bibnamehash}{efeca2b720f2e1353d53f19b3195ccb6}
+      \strng{authorbibnamehash}{efeca2b720f2e1353d53f19b3195ccb6}
+      \strng{authornamehash}{efeca2b720f2e1353d53f19b3195ccb6}
+      \strng{authorfullhash}{efeca2b720f2e1353d53f19b3195ccb6}
+      \strng{authorfullhashraw}{efeca2b720f2e1353d53f19b3195ccb6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Aerospace and Electronic Systems Magazine}
+      \field{number}{7}
+      \field{title}{Particle filter theory and practice with positioning applications}
+      \field{volume}{25}
+      \field{year}{2010}
+      \field{pages}{53\bibrangedash 82}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1109/MAES.2010.5546308
+      \endverb
+      \keyw{Particle filters;Filtering theory;Bayesian methods;Filtering algorithms;Guidelines;Nonlinear equations;Statistics;Information systems;Position measurement}
+    \endentry
+    \entry{Kim1998}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1916bac425c6d3d0abed4de07c55df5d}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sangjoon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=297d9c8d6a4dcfbed876803d5cbba67b}{%
+           family={Shephard},
+           familyi={S\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25628966014266922faf57d7f25b3abd}{%
+           family={Chib},
+           familyi={C\bibinitperiod},
+           given={Siddhartha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7bed773d610ab4f1b7db6a0b2725e3e0}
+      \strng{fullhash}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{fullhashraw}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{bibnamehash}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{authorbibnamehash}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{authornamehash}{7bed773d610ab4f1b7db6a0b2725e3e0}
+      \strng{authorfullhash}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{authorfullhashraw}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, Markov chain Monte Carlo sampling methods are exploited to provide a unified, practical likelihood-based framework for the analysis of stochastic volatility models. A highly effective method is developed that samples all the unobserved volatilities at once using an approximating offset mixture model, followed by an importance reweighting procedure. This approach is compared with several alternative methods using real data. The paper also develops simulation-based methods for filtering, likelihood evaluation and model failure diagnostics. The issue of model choice using non-nested likelihood ratios and Bayes factors is also investigated. These methods are used to compare the fit of stochastic volatility and GARCH models. All the procedures are illustrated in detail.}
+      \field{issn}{0034-6527}
+      \field{journaltitle}{The Review of Economic Studies}
+      \field{month}{07}
+      \field{number}{3}
+      \field{title}{Stochastic Volatility: Likelihood Inference and Comparison with ARCH Models}
+      \field{volume}{65}
+      \field{year}{1998}
+      \field{pages}{361\bibrangedash 393}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1111/1467-937X.00050
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/restud/article-pdf/65/3/361/4459409/65-3-361.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/1467-937X.00050
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/1467-937X.00050
+      \endverb
+    \endentry
+    \entry{Kong1994SequentialIA}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6e2e0c71197c5d1f7b517ec44693a0af}{%
+           family={Kong},
+           familyi={K\bibinitperiod},
+           given={Augustine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9d8ae3a8d167f57a3562a4b5395aa32}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jun\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1fa4209f400b7450b5cf52c5fb0c099}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Wing\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cc896b4fb929dd59aecdffd3e7a996d8}
+      \strng{fullhash}{c5cf0606333c2d3476e97b3ad72e0672}
+      \strng{fullhashraw}{c5cf0606333c2d3476e97b3ad72e0672}
+      \strng{bibnamehash}{c5cf0606333c2d3476e97b3ad72e0672}
+      \strng{authorbibnamehash}{c5cf0606333c2d3476e97b3ad72e0672}
+      \strng{authornamehash}{cc896b4fb929dd59aecdffd3e7a996d8}
+      \strng{authorfullhash}{c5cf0606333c2d3476e97b3ad72e0672}
+      \strng{authorfullhashraw}{c5cf0606333c2d3476e97b3ad72e0672}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{title}{Sequential Imputations and Bayesian Missing Data Problems}
+      \field{volume}{89}
+      \field{year}{1994}
+      \field{pages}{278\bibrangedash 288}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:45904944
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:45904944
+      \endverb
+    \endentry
+    \entry{marti2011regularised}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2c8f601bf76e91145aa6761303eef2f0}{%
+           family={Martí},
+           familyi={M\bibinitperiod},
+           given={Enrique},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f58429f035e5a5bf5f7155eea18f398f}{%
+           family={García},
+           familyi={G\bibinitperiod},
+           given={Jesús},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d840f9a7e110e113ae95aae1c0e94ad7}{%
+           family={Molina},
+           familyi={M\bibinitperiod},
+           given={José\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99bb8007cef14215269a2ff34fc87568}
+      \strng{fullhash}{e262e4bee1ad5d3a06676c78b87ba1e7}
+      \strng{fullhashraw}{e262e4bee1ad5d3a06676c78b87ba1e7}
+      \strng{bibnamehash}{e262e4bee1ad5d3a06676c78b87ba1e7}
+      \strng{authorbibnamehash}{e262e4bee1ad5d3a06676c78b87ba1e7}
+      \strng{authornamehash}{99bb8007cef14215269a2ff34fc87568}
+      \strng{authorfullhash}{e262e4bee1ad5d3a06676c78b87ba1e7}
+      \strng{authorfullhashraw}{e262e4bee1ad5d3a06676c78b87ba1e7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 6th Workshop on Sensor Data Fusion: Trends, Solutions, Applications (SDF)}
+      \field{title}{A Regularised Particle Filter for Context-Aware Sensor Fusion Applications}
+      \field{year}{2011}
+    \endentry
+    \entry{Pitt1999}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d99d06b59f63d8436f2fe359ce7ccc16}{%
+           family={Pitt},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=297d9c8d6a4dcfbed876803d5cbba67b}{%
+           family={Shephard},
+           familyi={S\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[American Statistical Association, Taylor & Francis, Ltd.]}%
+      }
+      \strng{namehash}{3b0cd2a581abd8312609bc805b047457}
+      \strng{fullhash}{3b0cd2a581abd8312609bc805b047457}
+      \strng{fullhashraw}{3b0cd2a581abd8312609bc805b047457}
+      \strng{bibnamehash}{3b0cd2a581abd8312609bc805b047457}
+      \strng{authorbibnamehash}{3b0cd2a581abd8312609bc805b047457}
+      \strng{authornamehash}{3b0cd2a581abd8312609bc805b047457}
+      \strng{authorfullhash}{3b0cd2a581abd8312609bc805b047457}
+      \strng{authorfullhashraw}{3b0cd2a581abd8312609bc805b047457}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article analyses the recently suggested particle approach to filtering time series. We suggest that the algorithm is not robust to outliers for two reasons: the design of the simulators and the use of the discrete support to represent the sequentially updating prior distribution. Here we tackle the first of these problems.}
+      \field{issn}{01621459, 1537274X}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{number}{446}
+      \field{title}{Filtering via Simulation: Auxiliary Particle Filters}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{94}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \field{pages}{590\bibrangedash 599}
+      \range{pages}{10}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/2670179
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2670179
+      \endverb
+    \endentry
+    \entry{rbnz2026}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e22d644521ba1578f96097e5bbe97f04}{%
+           family={{Reserve Bank of New Zealand}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e22d644521ba1578f96097e5bbe97f04}
+      \strng{fullhash}{e22d644521ba1578f96097e5bbe97f04}
+      \strng{fullhashraw}{e22d644521ba1578f96097e5bbe97f04}
+      \strng{bibnamehash}{e22d644521ba1578f96097e5bbe97f04}
+      \strng{authorbibnamehash}{e22d644521ba1578f96097e5bbe97f04}
+      \strng{authornamehash}{e22d644521ba1578f96097e5bbe97f04}
+      \strng{authorfullhash}{e22d644521ba1578f96097e5bbe97f04}
+      \strng{authorfullhashraw}{e22d644521ba1578f96097e5bbe97f04}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Excel dataset}
+      \field{title}{Exchange Rates and TWI -- B1 Daily (2018-current)}
+      \field{urlday}{30}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/statistics/series/b/b1/hb1-daily.xlsx
+      \endverb
+      \verb{url}
+      \verb https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/statistics/series/b/b1/hb1-daily.xlsx
+      \endverb
+    \endentry
+    \entry{Sarkka2013}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=89f4b98fe43f3c9f7ffdc081904d4781}{%
+           family={Särkkä},
+           familyi={S\bibinitperiod},
+           given={Simo},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{89f4b98fe43f3c9f7ffdc081904d4781}
+      \strng{fullhash}{89f4b98fe43f3c9f7ffdc081904d4781}
+      \strng{fullhashraw}{89f4b98fe43f3c9f7ffdc081904d4781}
+      \strng{bibnamehash}{89f4b98fe43f3c9f7ffdc081904d4781}
+      \strng{authorbibnamehash}{89f4b98fe43f3c9f7ffdc081904d4781}
+      \strng{authornamehash}{89f4b98fe43f3c9f7ffdc081904d4781}
+      \strng{authorfullhash}{89f4b98fe43f3c9f7ffdc081904d4781}
+      \strng{authorfullhashraw}{89f4b98fe43f3c9f7ffdc081904d4781}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bayesian Filtering and Smoothing}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1017/cbo9781139344203
+      \endverb
+    \endentry
+    \entry{Taylor1999}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6f98686904824d7e49b0e15976ab5e16}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{6f98686904824d7e49b0e15976ab5e16}
+      \strng{fullhash}{6f98686904824d7e49b0e15976ab5e16}
+      \strng{fullhashraw}{6f98686904824d7e49b0e15976ab5e16}
+      \strng{bibnamehash}{6f98686904824d7e49b0e15976ab5e16}
+      \strng{authorbibnamehash}{6f98686904824d7e49b0e15976ab5e16}
+      \strng{authornamehash}{6f98686904824d7e49b0e15976ab5e16}
+      \strng{authorfullhash}{6f98686904824d7e49b0e15976ab5e16}
+      \strng{authorfullhashraw}{6f98686904824d7e49b0e15976ab5e16}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Two mixtures of normal distributions, created by persistent changes in volatility, are compared as models for asset returns. A Markov chain with two states for volatility is contrasted with an autoregressive Gaussian process for the logarithm of volatility. The conditional variances of asset returns are shown to have a bimodal distribution for the former process when volatility is persistent that contrasts with a unimodal distribution for the latter process. A test procedure based upon this contrast shows that a lognormal distribution for sterling/dollar volatility is far more credible than only two volatility states.}
+      \field{issn}{1364503X}
+      \field{journaltitle}{Philosophical Transactions: Mathematical, Physical and Engineering Sciences}
+      \field{number}{1758}
+      \field{title}{Markov Processes and the Distribution of Volatility: A Comparison of Discrete and Continuous Specifications}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{357}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \field{pages}{2059\bibrangedash 2070}
+      \range{pages}{12}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/55250
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/55250
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{Akyildiz2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=92da77da15c16f6b87a979b2899f9cc9}{%
+           family={Akyildiz},
+           familyi={A\bibinitperiod},
+           given={Ömer\bibnamedelima Deniz},
+           giveni={Ö\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b858245bc8f30c9da00c8a230ffc43b8}{%
+           family={Míguez},
+           familyi={M\bibinitperiod},
+           given={Joaquín},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{52161aab624a5f485ebf78b0e78b39df}
+      \strng{fullhash}{52161aab624a5f485ebf78b0e78b39df}
+      \strng{fullhashraw}{52161aab624a5f485ebf78b0e78b39df}
+      \strng{bibnamehash}{52161aab624a5f485ebf78b0e78b39df}
+      \strng{authorbibnamehash}{52161aab624a5f485ebf78b0e78b39df}
+      \strng{authornamehash}{52161aab624a5f485ebf78b0e78b39df}
+      \strng{authorfullhash}{52161aab624a5f485ebf78b0e78b39df}
+      \strng{authorfullhashraw}{52161aab624a5f485ebf78b0e78b39df}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We investigate a new sampling scheme aimed at improving the performance of particle filters whenever (a) there is a significant mismatch between the assumed model dynamics and the actual system, or (b) the posterior probability tends to concentrate in relatively small regions of the state space. The proposed scheme pushes some particles toward specific regions where the likelihood is expected to be high, an operation known as nudging in the geophysics literature. We reinterpret nudging in a form applicable to any particle filtering scheme, as it does not involve any changes in the rest of the algorithm. Since the particles are modified, but the importance weights do not account for this modification, the use of nudging leads to additional bias in the resulting estimators. However, we prove analytically that nudged particle filters can still attain asymptotic convergence with the same error rates as conventional particle methods. Simple analysis also yields an alternative interpretation of the nudging operation that explains its robustness to model errors. Finally, we show numerical results that illustrate the improvements that can be attained using the proposed scheme. In particular, we present nonlinear tracking examples with synthetic data and a model inference example using real-world financial data.}
+      \field{isbn}{1573-1375}
+      \field{journaltitle}{Statistics and Computing}
+      \field{number}{2}
+      \field{title}{Nudging the particle filter}
+      \field{volume}{30}
+      \field{year}{2020}
+      \field{pages}{305\bibrangedash 330}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1007/s11222-019-09884-y
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11222-019-09884-y
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11222-019-09884-y
+      \endverb
+      \warn{\item article entry 'Akyildiz2020' (references.bib): Invalid format '2020/03/01' of date field 'date' - ignoring}
+    \endentry
+    \entry{Andrieu2010}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ac7a0b060593ea80a10f55d530432a50}{%
+           family={Andrieu},
+           familyi={A\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aca5faad8b57b96b59c12fc59d0b6eb4}{%
+           family={Doucet},
+           familyi={D\bibinitperiod},
+           given={Arnaud},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fa139cb7d5195e095f29975804e6f31}{%
+           family={Holenstein},
+           familyi={H\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{839e61e53fed1e7a24a5d817e8fe9a46}
+      \strng{fullhash}{39c0c746d8c218374cd32883c930e3f5}
+      \strng{fullhashraw}{39c0c746d8c218374cd32883c930e3f5}
+      \strng{bibnamehash}{39c0c746d8c218374cd32883c930e3f5}
+      \strng{authorbibnamehash}{39c0c746d8c218374cd32883c930e3f5}
+      \strng{authornamehash}{839e61e53fed1e7a24a5d817e8fe9a46}
+      \strng{authorfullhash}{39c0c746d8c218374cd32883c930e3f5}
+      \strng{authorfullhashraw}{39c0c746d8c218374cd32883c930e3f5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Markov chain Monte Carlo and sequential Monte Carlo methods have emerged as the two main tools to sample from high dimensional probability distributions. Although asymptotic convergence of Markov chain Monte Carlo algorithms is ensured under weak assumptions, the performance of these algorithms is unreliable when the proposal distributions that are used to explore the space are poorly chosen and/or if highly correlated variables are updated independently. We show here how it is possible to build efficient high dimensional proposal distributions by using sequential Monte Carlo methods. This allows us not only to improve over standard Markov chain Monte Carlo schemes but also to make Bayesian inference feasible for a large class of statistical models where this was not previously so. We demonstrate these algorithms on a non-linear state space model and a Lévy-driven stochastic volatility model.}
+      \field{issn}{1369-7412}
+      \field{journaltitle}{Journal of the Royal Statistical Society Series B: Statistical Methodology}
+      \field{month}{06}
+      \field{number}{3}
+      \field{title}{Particle Markov Chain Monte Carlo Methods}
+      \field{volume}{72}
+      \field{year}{2010}
+      \field{pages}{269\bibrangedash 342}
+      \range{pages}{74}
+      \verb{doi}
+      \verb 10.1111/j.1467-9868.2009.00736.x
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/jrsssb/article-pdf/72/3/269/49515565/jrsssb_72_3_269.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/j.1467-9868.2009.00736.x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/j.1467-9868.2009.00736.x
+      \endverb
+    \endentry
+    \entry{Arulampalam2002}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=92be5acd369ea256256f77693546ddab}{%
+           family={Arulampalam},
+           familyi={A\bibinitperiod},
+           given={M.S.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26c6aa603a2c4ce496a57aeee2e8f83c}{%
+           family={Maskell},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0b5c9dbb3f74a586974af6016fccab7}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77931271ad9b5f23f2180d9e7e5df9b2}{%
+           family={Clapp},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8bf85617383be95b0e0b34cdfc66a753}
+      \strng{fullhash}{47ecdaed0871c7416b884d2cf62d3243}
+      \strng{fullhashraw}{47ecdaed0871c7416b884d2cf62d3243}
+      \strng{bibnamehash}{47ecdaed0871c7416b884d2cf62d3243}
+      \strng{authorbibnamehash}{47ecdaed0871c7416b884d2cf62d3243}
+      \strng{authornamehash}{8bf85617383be95b0e0b34cdfc66a753}
+      \strng{authorfullhash}{47ecdaed0871c7416b884d2cf62d3243}
+      \strng{authorfullhashraw}{47ecdaed0871c7416b884d2cf62d3243}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Signal Processing}
+      \field{number}{2}
+      \field{title}{A tutorial on particle filters for online nonlinear/non-Gaussian Bayesian tracking}
+      \field{volume}{50}
+      \field{year}{2002}
+      \field{pages}{174\bibrangedash 188}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/78.978374
+      \endverb
+      \keyw{Tutorial;Particle filters;Nonlinear dynamical systems;Costs;Signal processing;Bayesian methods;Particle tracking;Kalman filters;Filtering;Monte Carlo methods}
+    \endentry
+    \entry{BUCKLAND2004157}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=43d64636acaac9ee5b8705042c963258}{%
+           family={Buckland},
+           familyi={B\bibinitperiod},
+           given={S.T.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33af46d3d33f69c46fd069a327ab9b81}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={K.B.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=163d8936b81dbc61bfd9aa7cc5fe9c3a}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3613ebbda167a9e99a3833fa986fcd89}{%
+           family={Koesters},
+           familyi={K\bibinitperiod},
+           given={N.B.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{12072470778ab8dbafb1d235148b0af2}
+      \strng{fullhash}{b2e2f19ef2d119c9ebd97bf2144c83b7}
+      \strng{fullhashraw}{b2e2f19ef2d119c9ebd97bf2144c83b7}
+      \strng{bibnamehash}{b2e2f19ef2d119c9ebd97bf2144c83b7}
+      \strng{authorbibnamehash}{b2e2f19ef2d119c9ebd97bf2144c83b7}
+      \strng{authornamehash}{12072470778ab8dbafb1d235148b0af2}
+      \strng{authorfullhash}{b2e2f19ef2d119c9ebd97bf2144c83b7}
+      \strng{authorfullhashraw}{b2e2f19ef2d119c9ebd97bf2144c83b7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We develop a unified framework for jointly defining population dynamics models and measurements taken on a population. The framework is a state-space model where the population processes are modelled by the state process and measurements are modelled by the observation process. In many cases, the expected value for the state process can be represented as a generalisation of the standard population projection matrix: each sub-process within the state process may be modelled by a separate matrix and the product of these matrices is a generalised Leslie matrix. By selecting appropriate matrices and their ordering, a wide range of models may be specified. The method is fully flexible for allowing stochastic variation in the processes. Process parameters may themselves be modelled as functions of covariates. The structure accommodates effects such as density dependence, competition and predator–prey relationships, and metapopulations are readily modelled. Observations on the population enter through an observation process model, and we show how likelihood functions can be built that reflect both demographic stochasticity (which appears in the state process) and stochastic errors in the observations. Parameter estimation and estimation of state process variables can be conducted using sequential Monte Carlo procedures.}
+      \field{issn}{0304-3800}
+      \field{journaltitle}{Ecological Modelling}
+      \field{number}{1}
+      \field{title}{State-space models for the dynamics of wild animal populations}
+      \field{volume}{171}
+      \field{year}{2004}
+      \field{pages}{157\bibrangedash 175}
+      \range{pages}{19}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ecolmodel.2003.08.002
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0304380003003302
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0304380003003302
+      \endverb
+      \keyw{Generalised Leslie matrix,Open population models,Population dynamics models,Recursive filtering algorithms,State-space models}
+    \endentry
+    \entry{Casarin2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e6eeb6091570f23e055ea81aa213bf8a}{%
+           family={Casarin},
+           familyi={C\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41d244db4705ec8da2fc38ab27c6c1a4}{%
+           family={Marin},
+           familyi={M\bibinitperiod},
+           given={Jean-Michel},
+           giveni={J\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Mathematical Statistics}%
+        {Bernoulli Society}%
+      }
+      \strng{namehash}{8561c72cc4c2b836521924a64f2c8cb8}
+      \strng{fullhash}{8561c72cc4c2b836521924a64f2c8cb8}
+      \strng{fullhashraw}{8561c72cc4c2b836521924a64f2c8cb8}
+      \strng{bibnamehash}{8561c72cc4c2b836521924a64f2c8cb8}
+      \strng{authorbibnamehash}{8561c72cc4c2b836521924a64f2c8cb8}
+      \strng{authornamehash}{8561c72cc4c2b836521924a64f2c8cb8}
+      \strng{authorfullhash}{8561c72cc4c2b836521924a64f2c8cb8}
+      \strng{authorfullhashraw}{8561c72cc4c2b836521924a64f2c8cb8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electronic Journal of Statistics}
+      \field{number}{none}
+      \field{title}{{Online data processing: Comparison of Bayesian regularized particle filters}}
+      \field{volume}{3}
+      \field{year}{2009}
+      \field{pages}{239\bibrangedash 258}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1214/08-EJS256
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1214/08-EJS256
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1214/08-EJS256
+      \endverb
+      \keyw{Bayesian estimation,Online data processing,regularized particle filters,stochastic volatility models}
+    \endentry
+    \entry{Douc2005}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8016e20ffe53cd289b6f027afc9eab01}{%
+           family={Douc},
+           familyi={D\bibinitperiod},
+           given={Randal},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2ffb0fcf2473b1619d2032fd10cead7}{%
+           family={Cappé},
+           familyi={C\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{25910723bc0408295aba06a370151b8e}
+      \strng{fullhash}{25910723bc0408295aba06a370151b8e}
+      \strng{fullhashraw}{25910723bc0408295aba06a370151b8e}
+      \strng{bibnamehash}{25910723bc0408295aba06a370151b8e}
+      \strng{authorbibnamehash}{25910723bc0408295aba06a370151b8e}
+      \strng{authornamehash}{25910723bc0408295aba06a370151b8e}
+      \strng{authorfullhash}{25910723bc0408295aba06a370151b8e}
+      \strng{authorfullhashraw}{25910723bc0408295aba06a370151b8e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ISPA 2005. Proceedings of the 4th International Symposium on Image and Signal Processing and Analysis, 2005.}
+      \field{title}{Comparison of resampling schemes for particle filtering}
+      \field{year}{2005}
+      \field{pages}{64\bibrangedash 69}
+      \range{pages}{6}
+    \endentry
+    \entry{Dukic01122012}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8ab968dbdd0d3f948a76ea250d22f000}{%
+           family={Dukic},
+           familyi={D\bibinitperiod},
+           given={Vanja},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6f599573a3f598649287069b6c48ae2}{%
+           family={Lopes},
+           familyi={L\bibinitperiod},
+           given={Hedibert\bibnamedelima F.},
+           giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c782f2b0a57bb490ef246bfbfd177e82}{%
+           family={Polson},
+           familyi={P\bibinitperiod},
+           given={Nicholas\bibnamedelima G.},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{c0b07adb36752923444c81cca1b6fb5f}
+      \strng{fullhash}{42691d2da30ffc679ed0505b301583f4}
+      \strng{fullhashraw}{42691d2da30ffc679ed0505b301583f4}
+      \strng{bibnamehash}{42691d2da30ffc679ed0505b301583f4}
+      \strng{authorbibnamehash}{42691d2da30ffc679ed0505b301583f4}
+      \strng{authornamehash}{c0b07adb36752923444c81cca1b6fb5f}
+      \strng{authorfullhash}{42691d2da30ffc679ed0505b301583f4}
+      \strng{authorfullhashraw}{42691d2da30ffc679ed0505b301583f4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{note}{PMID: 37583443}
+      \field{number}{500}
+      \field{title}{Tracking Epidemics With Google Flu Trends Data and a State-Space SEIR Model}
+      \field{volume}{107}
+      \field{year}{2012}
+      \field{pages}{1410\bibrangedash 1426}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1080/01621459.2012.713876
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/01621459.2012.713876
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/01621459.2012.713876
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/01621459.2012.713876
+      \endverb
+    \endentry
+    \entry{Durbin2012}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6186d820e49f3adc10764a9c5595a360}{%
+           family={Durbin},
+           familyi={D\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21f365c12bd59fa8a7120260bd39f1fc}{%
+           family={Koopman},
+           familyi={K\bibinitperiod},
+           given={Siem\bibnamedelima Jan},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a6d55ee23b49aa3ff87b3f18d97947aa}
+      \strng{fullhash}{a6d55ee23b49aa3ff87b3f18d97947aa}
+      \strng{fullhashraw}{a6d55ee23b49aa3ff87b3f18d97947aa}
+      \strng{bibnamehash}{a6d55ee23b49aa3ff87b3f18d97947aa}
+      \strng{authorbibnamehash}{a6d55ee23b49aa3ff87b3f18d97947aa}
+      \strng{authornamehash}{a6d55ee23b49aa3ff87b3f18d97947aa}
+      \strng{authorfullhash}{a6d55ee23b49aa3ff87b3f18d97947aa}
+      \strng{authorfullhashraw}{a6d55ee23b49aa3ff87b3f18d97947aa}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Time Series Analysis by State Space Methods}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.1093/acprof:oso/9780199641178.001.0001
+      \endverb
+    \endentry
+    \entry{Elfring2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3daeb72758d6190bf48c2f54ad0eb268}{%
+           family={Elfring},
+           familyi={E\bibinitperiod},
+           given={Jos},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7f026594a2f0c34a7356129d66a152e}{%
+           family={Torta},
+           familyi={T\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=051e288c7b7eda7b31a4008d8ee630f6}{%
+           family={Molengraft},
+           familyi={M\bibinitperiod},
+           given={René},
+           giveni={R\bibinitperiod},
+           givenun=0,
+           prefix={van\bibnamedelima de},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d42c2834c2e2ac47456acb98e541157}
+      \strng{fullhash}{d06040eed349188ec2e0c8de3a6aab42}
+      \strng{fullhashraw}{d06040eed349188ec2e0c8de3a6aab42}
+      \strng{bibnamehash}{d06040eed349188ec2e0c8de3a6aab42}
+      \strng{authorbibnamehash}{d06040eed349188ec2e0c8de3a6aab42}
+      \strng{authornamehash}{5d42c2834c2e2ac47456acb98e541157}
+      \strng{authorfullhash}{d06040eed349188ec2e0c8de3a6aab42}
+      \strng{authorfullhashraw}{d06040eed349188ec2e0c8de3a6aab42}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The particle filter was popularized in the early 1990s and has been used for solving estimation problems ever since. The standard algorithm can be understood and implemented with limited effort due to the widespread availability of tutorial material and code examples. Extensive research has advanced the standard particle filter algorithm to improve its performance and applicability in various ways in the years after. As a result, selecting and implementing an advanced version of the particle filter that goes beyond the standard algorithm and fits a specific estimation problem requires either a thorough understanding or reviewing large amounts of the literature. The latter can be heavily time consuming especially for those with limited hands-on experience. Lack of implementation details in theory-oriented papers complicates this task even further. The goal of this tutorial is facilitating the reader to familiarize themselves with the key concepts of advanced particle filter algorithms and to select and implement the right particle filter for the estimation problem at hand. It acts as a single entry point that provides a theoretical overview of the filter, its assumptions and solutions for various challenges encountered when applying particle filters. Besides that, it includes a running example that demonstrates and implements many of the challenges and solutions.}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{number}{2}
+      \field{title}{Particle Filters: A Hands-On Tutorial}
+      \field{volume}{21}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.3390/s21020438
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/21/2/438
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/21/2/438
+      \endverb
+    \endentry
+    \entry{Gordon1993NovelAT}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f7b8994df3c42d9bcafedf9addf38826}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={Neil\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=338cb8298aa547242d51506becdff381}{%
+           family={Salmond},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17aff1141369f44f3fde55c8f76ec195}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Adrian\bibnamedelimb F.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b93da2cbff975244a8e3a15476416cbb}
+      \strng{fullhash}{72cb0c530f69b2f2b7c164b4d550daa7}
+      \strng{fullhashraw}{72cb0c530f69b2f2b7c164b4d550daa7}
+      \strng{bibnamehash}{72cb0c530f69b2f2b7c164b4d550daa7}
+      \strng{authorbibnamehash}{72cb0c530f69b2f2b7c164b4d550daa7}
+      \strng{authornamehash}{b93da2cbff975244a8e3a15476416cbb}
+      \strng{authorfullhash}{72cb0c530f69b2f2b7c164b4d550daa7}
+      \strng{authorfullhashraw}{72cb0c530f69b2f2b7c164b4d550daa7}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Novel approach to nonlinear/non-Gaussian Bayesian state estimation}
+      \field{year}{1993}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:12644877
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:12644877
+      \endverb
+    \endentry
+    \entry{Gustafsson2002}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=c77871f54925a9bb922d01d455faa274}{%
+           family={Gustafsson},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1468b32f784b00212fb1d4483b28d0e9}{%
+           family={Gunnarsson},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fb88db3fdd53fad515f03223c7299ae}{%
+           family={Bergman},
+           familyi={B\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7640b417d029d0cfeb043a8d3f47eee2}{%
+           family={Forssell},
+           familyi={F\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02db2cbea835506cc2a2fcf623de3ab2}{%
+           family={Jansson},
+           familyi={J\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e10c5de92dd19c0f8c98e8f7d9b93ea}{%
+           family={Karlsson},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f00fd8619a37ffa4fdbfcd5dba0f709}{%
+           family={Nordlund},
+           familyi={N\bibinitperiod},
+           given={P.-J.},
+           giveni={P\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c420dfa16a5f795860076448f9f3bf95}
+      \strng{fullhash}{c7975d7c5ea3b9e1d611edce3c8381e0}
+      \strng{fullhashraw}{c7975d7c5ea3b9e1d611edce3c8381e0}
+      \strng{bibnamehash}{c7975d7c5ea3b9e1d611edce3c8381e0}
+      \strng{authorbibnamehash}{c7975d7c5ea3b9e1d611edce3c8381e0}
+      \strng{authornamehash}{c420dfa16a5f795860076448f9f3bf95}
+      \strng{authorfullhash}{c7975d7c5ea3b9e1d611edce3c8381e0}
+      \strng{authorfullhashraw}{c7975d7c5ea3b9e1d611edce3c8381e0}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Signal Processing}
+      \field{number}{2}
+      \field{title}{Particle filters for positioning, navigation, and tracking}
+      \field{volume}{50}
+      \field{year}{2002}
+      \field{pages}{425\bibrangedash 437}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/78.978396
+      \endverb
+      \keyw{Particle filters;Particle tracking;Aircraft navigation;Position measurement;Satellite navigation systems;Target tracking;Motion measurement;Nonlinear equations;Automotive engineering;Kalman filters}
+    \endentry
+    \entry{Gustafsson2010}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=efeca2b720f2e1353d53f19b3195ccb6}{%
+           family={Gustafsson},
+           familyi={G\bibinitperiod},
+           given={Fredrik},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{efeca2b720f2e1353d53f19b3195ccb6}
+      \strng{fullhash}{efeca2b720f2e1353d53f19b3195ccb6}
+      \strng{fullhashraw}{efeca2b720f2e1353d53f19b3195ccb6}
+      \strng{bibnamehash}{efeca2b720f2e1353d53f19b3195ccb6}
+      \strng{authorbibnamehash}{efeca2b720f2e1353d53f19b3195ccb6}
+      \strng{authornamehash}{efeca2b720f2e1353d53f19b3195ccb6}
+      \strng{authorfullhash}{efeca2b720f2e1353d53f19b3195ccb6}
+      \strng{authorfullhashraw}{efeca2b720f2e1353d53f19b3195ccb6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Aerospace and Electronic Systems Magazine}
+      \field{number}{7}
+      \field{title}{Particle filter theory and practice with positioning applications}
+      \field{volume}{25}
+      \field{year}{2010}
+      \field{pages}{53\bibrangedash 82}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1109/MAES.2010.5546308
+      \endverb
+      \keyw{Particle filters;Filtering theory;Bayesian methods;Filtering algorithms;Guidelines;Nonlinear equations;Statistics;Information systems;Position measurement}
+    \endentry
+    \entry{Kim1998}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1916bac425c6d3d0abed4de07c55df5d}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sangjoon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=297d9c8d6a4dcfbed876803d5cbba67b}{%
+           family={Shephard},
+           familyi={S\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25628966014266922faf57d7f25b3abd}{%
+           family={Chib},
+           familyi={C\bibinitperiod},
+           given={Siddhartha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7bed773d610ab4f1b7db6a0b2725e3e0}
+      \strng{fullhash}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{fullhashraw}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{bibnamehash}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{authorbibnamehash}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{authornamehash}{7bed773d610ab4f1b7db6a0b2725e3e0}
+      \strng{authorfullhash}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \strng{authorfullhashraw}{46d2d1ba3ffe3cffb297f39cf84026e8}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, Markov chain Monte Carlo sampling methods are exploited to provide a unified, practical likelihood-based framework for the analysis of stochastic volatility models. A highly effective method is developed that samples all the unobserved volatilities at once using an approximating offset mixture model, followed by an importance reweighting procedure. This approach is compared with several alternative methods using real data. The paper also develops simulation-based methods for filtering, likelihood evaluation and model failure diagnostics. The issue of model choice using non-nested likelihood ratios and Bayes factors is also investigated. These methods are used to compare the fit of stochastic volatility and GARCH models. All the procedures are illustrated in detail.}
+      \field{issn}{0034-6527}
+      \field{journaltitle}{The Review of Economic Studies}
+      \field{month}{07}
+      \field{number}{3}
+      \field{title}{Stochastic Volatility: Likelihood Inference and Comparison with ARCH Models}
+      \field{volume}{65}
+      \field{year}{1998}
+      \field{pages}{361\bibrangedash 393}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1111/1467-937X.00050
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/restud/article-pdf/65/3/361/4459409/65-3-361.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/1467-937X.00050
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/1467-937X.00050
+      \endverb
+    \endentry
+    \entry{Kong1994SequentialIA}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6e2e0c71197c5d1f7b517ec44693a0af}{%
+           family={Kong},
+           familyi={K\bibinitperiod},
+           given={Augustine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9d8ae3a8d167f57a3562a4b5395aa32}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jun\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1fa4209f400b7450b5cf52c5fb0c099}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Wing\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cc896b4fb929dd59aecdffd3e7a996d8}
+      \strng{fullhash}{c5cf0606333c2d3476e97b3ad72e0672}
+      \strng{fullhashraw}{c5cf0606333c2d3476e97b3ad72e0672}
+      \strng{bibnamehash}{c5cf0606333c2d3476e97b3ad72e0672}
+      \strng{authorbibnamehash}{c5cf0606333c2d3476e97b3ad72e0672}
+      \strng{authornamehash}{cc896b4fb929dd59aecdffd3e7a996d8}
+      \strng{authorfullhash}{c5cf0606333c2d3476e97b3ad72e0672}
+      \strng{authorfullhashraw}{c5cf0606333c2d3476e97b3ad72e0672}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{title}{Sequential Imputations and Bayesian Missing Data Problems}
+      \field{volume}{89}
+      \field{year}{1994}
+      \field{pages}{278\bibrangedash 288}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:45904944
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:45904944
+      \endverb
+    \endentry
+    \entry{marti2011regularised}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2c8f601bf76e91145aa6761303eef2f0}{%
+           family={Martí},
+           familyi={M\bibinitperiod},
+           given={Enrique},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f58429f035e5a5bf5f7155eea18f398f}{%
+           family={García},
+           familyi={G\bibinitperiod},
+           given={Jesús},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d840f9a7e110e113ae95aae1c0e94ad7}{%
+           family={Molina},
+           familyi={M\bibinitperiod},
+           given={José\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99bb8007cef14215269a2ff34fc87568}
+      \strng{fullhash}{e262e4bee1ad5d3a06676c78b87ba1e7}
+      \strng{fullhashraw}{e262e4bee1ad5d3a06676c78b87ba1e7}
+      \strng{bibnamehash}{e262e4bee1ad5d3a06676c78b87ba1e7}
+      \strng{authorbibnamehash}{e262e4bee1ad5d3a06676c78b87ba1e7}
+      \strng{authornamehash}{99bb8007cef14215269a2ff34fc87568}
+      \strng{authorfullhash}{e262e4bee1ad5d3a06676c78b87ba1e7}
+      \strng{authorfullhashraw}{e262e4bee1ad5d3a06676c78b87ba1e7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 6th Workshop on Sensor Data Fusion: Trends, Solutions, Applications (SDF)}
+      \field{title}{A Regularised Particle Filter for Context-Aware Sensor Fusion Applications}
+      \field{year}{2011}
+    \endentry
+    \entry{Pitt1999}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d99d06b59f63d8436f2fe359ce7ccc16}{%
+           family={Pitt},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=297d9c8d6a4dcfbed876803d5cbba67b}{%
+           family={Shephard},
+           familyi={S\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[American Statistical Association, Taylor & Francis, Ltd.]}%
+      }
+      \strng{namehash}{3b0cd2a581abd8312609bc805b047457}
+      \strng{fullhash}{3b0cd2a581abd8312609bc805b047457}
+      \strng{fullhashraw}{3b0cd2a581abd8312609bc805b047457}
+      \strng{bibnamehash}{3b0cd2a581abd8312609bc805b047457}
+      \strng{authorbibnamehash}{3b0cd2a581abd8312609bc805b047457}
+      \strng{authornamehash}{3b0cd2a581abd8312609bc805b047457}
+      \strng{authorfullhash}{3b0cd2a581abd8312609bc805b047457}
+      \strng{authorfullhashraw}{3b0cd2a581abd8312609bc805b047457}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article analyses the recently suggested particle approach to filtering time series. We suggest that the algorithm is not robust to outliers for two reasons: the design of the simulators and the use of the discrete support to represent the sequentially updating prior distribution. Here we tackle the first of these problems.}
+      \field{issn}{01621459, 1537274X}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{number}{446}
+      \field{title}{Filtering via Simulation: Auxiliary Particle Filters}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{94}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \field{pages}{590\bibrangedash 599}
+      \range{pages}{10}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/2670179
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2670179
+      \endverb
+    \endentry
+    \entry{rbnz2026}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e22d644521ba1578f96097e5bbe97f04}{%
+           family={{Reserve Bank of New Zealand}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e22d644521ba1578f96097e5bbe97f04}
+      \strng{fullhash}{e22d644521ba1578f96097e5bbe97f04}
+      \strng{fullhashraw}{e22d644521ba1578f96097e5bbe97f04}
+      \strng{bibnamehash}{e22d644521ba1578f96097e5bbe97f04}
+      \strng{authorbibnamehash}{e22d644521ba1578f96097e5bbe97f04}
+      \strng{authornamehash}{e22d644521ba1578f96097e5bbe97f04}
+      \strng{authorfullhash}{e22d644521ba1578f96097e5bbe97f04}
+      \strng{authorfullhashraw}{e22d644521ba1578f96097e5bbe97f04}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Excel dataset}
+      \field{title}{Exchange Rates and TWI -- B1 Daily (2018-current)}
+      \field{urlday}{30}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/statistics/series/b/b1/hb1-daily.xlsx
+      \endverb
+      \verb{url}
+      \verb https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/statistics/series/b/b1/hb1-daily.xlsx
+      \endverb
+    \endentry
+    \entry{Sarkka2013}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=89f4b98fe43f3c9f7ffdc081904d4781}{%
+           family={Särkkä},
+           familyi={S\bibinitperiod},
+           given={Simo},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{89f4b98fe43f3c9f7ffdc081904d4781}
+      \strng{fullhash}{89f4b98fe43f3c9f7ffdc081904d4781}
+      \strng{fullhashraw}{89f4b98fe43f3c9f7ffdc081904d4781}
+      \strng{bibnamehash}{89f4b98fe43f3c9f7ffdc081904d4781}
+      \strng{authorbibnamehash}{89f4b98fe43f3c9f7ffdc081904d4781}
+      \strng{authornamehash}{89f4b98fe43f3c9f7ffdc081904d4781}
+      \strng{authorfullhash}{89f4b98fe43f3c9f7ffdc081904d4781}
+      \strng{authorfullhashraw}{89f4b98fe43f3c9f7ffdc081904d4781}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bayesian Filtering and Smoothing}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1017/cbo9781139344203
+      \endverb
+    \endentry
+    \entry{Taylor1999}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6f98686904824d7e49b0e15976ab5e16}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{6f98686904824d7e49b0e15976ab5e16}
+      \strng{fullhash}{6f98686904824d7e49b0e15976ab5e16}
+      \strng{fullhashraw}{6f98686904824d7e49b0e15976ab5e16}
+      \strng{bibnamehash}{6f98686904824d7e49b0e15976ab5e16}
+      \strng{authorbibnamehash}{6f98686904824d7e49b0e15976ab5e16}
+      \strng{authornamehash}{6f98686904824d7e49b0e15976ab5e16}
+      \strng{authorfullhash}{6f98686904824d7e49b0e15976ab5e16}
+      \strng{authorfullhashraw}{6f98686904824d7e49b0e15976ab5e16}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Two mixtures of normal distributions, created by persistent changes in volatility, are compared as models for asset returns. A Markov chain with two states for volatility is contrasted with an autoregressive Gaussian process for the logarithm of volatility. The conditional variances of asset returns are shown to have a bimodal distribution for the former process when volatility is persistent that contrasts with a unimodal distribution for the latter process. A test procedure based upon this contrast shows that a lognormal distribution for sterling/dollar volatility is far more credible than only two volatility states.}
+      \field{issn}{1364503X}
+      \field{journaltitle}{Philosophical Transactions: Mathematical, Physical and Engineering Sciences}
+      \field{number}{1758}
+      \field{title}{Markov Processes and the Distribution of Volatility: A Comparison of Discrete and Continuous Specifications}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{357}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \field{pages}{2059\bibrangedash 2070}
+      \range{pages}{12}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/55250
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/55250
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
